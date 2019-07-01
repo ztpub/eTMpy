@@ -1,4 +1,4 @@
-# eTMpy
+# eTMplant
 Endogenous target mimic (eTMs) screen package
 
 Demo:

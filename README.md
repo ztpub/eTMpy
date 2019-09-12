@@ -20,3 +20,6 @@ Demo:
 Results will be in eTM_py_list.txt
 
 ######################################################################
+
+# Version update 0.2
+# Add the screen of postive and negative chains together

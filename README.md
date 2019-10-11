@@ -10,6 +10,8 @@ Based on the following rigorous rules:
 
 (3) the total number of mismatches and G/U pairs within the eTM and miRNA pairing region (excluding the bulge region) should be no more than three and the consecutive mismatches should not exceed two. 
 
+* Version update 0.2
+* Add the screen of postive and negative chains together
 
 ######################################################################
 
@@ -22,5 +24,16 @@ Results will be in eTM_py_list.txt
 ######################################################################
 
 
-* Version update 0.2
-* Add the screen of postive and negative chains together
+
+* Version update 0.3 (new command format)
+* Add the parameter on penalty score (>=0).
+
+######################################################################
+
+Demo:
+ 
+   run python eTMplant.py Arabidopsis_thaliana.fasta ath_miRNA.txt 4
+
+Results (with penalty score <=4) will be in eTM_py_list.txt
+
+######################################################################
